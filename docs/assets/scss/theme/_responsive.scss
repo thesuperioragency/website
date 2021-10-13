@@ -15,11 +15,7 @@
       }
     }
   }
-  .agency {
-    .girl-boy {
-      right: 8%;
-    }
-  }
+
   .header {
     .wedding-content {
       .girl {
@@ -74,24 +70,13 @@
 }
 
 @media(min-width: 1470px) {
-  .event, .gym, .agency, .music, .resume, .yoga, .wedding {
-    .container {
-      max-width: 1440px;
-    }
-  }
   .menu-set{
     right: unset!important;
   }
 }
 
 @media(max-width: 1469px) {
-  .music{
-    div{
-      .album-list{
-        padding: 30px;
-      }
-    }
-  }
+
   header {
     &.wedding {
       .logo-abs {
@@ -102,36 +87,7 @@
 }
 
 @media (max-width: 1430px) {
-  .cart-section {
-    .cart-buttons {
-      > div {
-        &:last-child {
-          padding-right: 38px;
-        }
-      }
-    }
-    tbody {
-      tr {
-        td {
-          min-width: 175px;
-          .qty-box {
-            .input-group {
-              .form-control {
-                width: 75px;
-              }
-            }
-          }
-        }
-      }
-    }
-    tfoot {
-      tr {
-        td {
-          padding-right: 41px;
-        }
-      }
-    }
-  }
+
   .portfolio-metro{
     h1{
       font-size: 70px;
@@ -139,117 +95,12 @@
   }
 
   // inner pages //
-  .collection-product-wrapper {
-    .product-top-filter {
-      .product-filter-content {
-        .search-count {
-          width:100%;
-          border-left:1px solid $round-border;
-          border-bottom: 1px solid $round-border;
-          text-align: center;
-        }
-        .collection-view {
-          width: 20%;
-          padding-right: 0 !important;
-          border-left:1px solid $round-border;
-        }
-        .collection-grid-view {
-          padding: 20px !important;
-          padding-left: 0 !important;
-          width: 20%;
-          ul {
-            li {
-              &:last-child {
-                display: none;
-              }
-            }
-          }
-        }
-        .product-page-filter {
-          border-right: 1px solid $round-border;
-          width: 30%;
-        }
-        .product-page-per-view {
-          width: 30%;
-        }
-      }
-      .popup-filter {
-        .collection-view {
-          width: 10%;
-        }
-        .product-page-per-view {
-          width: 25%;
-        }
-      }
-    }
-  }
-  .cart-section {
-    .cart-buttons {
-      > div {
-        &:last-child {
-          padding-right: 38px;
-        }
-      }
-    }
-    tbody {
-      tr {
-        td {
-          min-width: 175px;
-          .qty-box {
-            .input-group {
-              .form-control {
-                width: 75px;
-              }
-            }
-          }
-        }
-      }
-    }
-    tfoot {
-      tr {
-        td {
-          padding-right: 41px;
-        }
-      }
-    }
-  }
-  .product-right {
-    .product-icon {
-      .product-social {
-        li {
-          padding-right: 10px;
-        }
-      }
-    }
-  }
-  .product-form-box {
-    .timer {
-      padding-left: 17px;
-      span {
-        width: 55px;
-      }
-    }
-  }
+
 }
 
 @media only screen and (max-width: 1366px) and (min-width: 1200px) {
 
-  .agency.blog {
-    .blog-agency {
-      .blog-contain {
-        .img-container{
-          .blog-head{
-            margin-bottom: 10px;
-          }
-          .blog-info{
-            .m-b-20{
-              margin-bottom: 10px !important;
-            }
-          }
-        }
-      }
-    }
-  }
+
   footer {
     &.footer2 {
       &.saas2 {
